@@ -38,7 +38,7 @@ This project is an Online Forum with Gamification built using NestJS for the bac
   - TypeScript
   - MongoDb
   - JWT for authentication
-  - WebSocket (optional for real-time features)
+  - WebSocket
 
 - **Frontend**
 
