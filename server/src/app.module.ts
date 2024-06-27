@@ -17,6 +17,7 @@ import { User, UserSchema } from './schemas/User.schema';
 import { Image, ImageSchema } from './schemas/Image.schema';
 import { EmployeeModule } from './employee/employee.module';
 import { Employee, EmployeeSchema } from './employee/entities/employee.scheme';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -43,6 +44,7 @@ import { Employee, EmployeeSchema } from './employee/entities/employee.scheme';
       },
     ]),
     EmployeeModule,
+    AuthModule,
   ],
   controllers: [AppController, ImageController],
   providers: [
